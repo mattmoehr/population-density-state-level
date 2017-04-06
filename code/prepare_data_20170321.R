@@ -7,12 +7,13 @@
 ## in case there are any packages from R < 3.0.0
 ## update.packages(checkBuilt=TRUE, ask=FALSE)
 
-install.packages("broom")
-install.packages("dplyr")
-install.packages("rjson")
-install.packages("rgdal")
-install.packages("rgeos")
-install.packages("ggmap")
+
+# install.packages("broom")
+# install.packages("dplyr")
+# install.packages("rjson")
+# install.packages("rgdal")
+# install.packages("rgeos")
+# install.packages("ggmap")
 
 library("broom")
 library("dplyr")
@@ -73,7 +74,7 @@ ggplot(data = lower49_tidy) +
     )
 
 save(list =  c("lower49_tidy",
-               "lower49_cent_sdf",
+               "lower49_pop",
                "state_pop",
                "lower49_shp"
                ),
